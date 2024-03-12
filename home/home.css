@@ -40,3 +40,21 @@
   padding: 5px;
 }
 
+.registros-titulo{
+  width: 100%;
+  margin: auto;
+}
+.registros{
+  max-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.registros-denuncia{
+  margin: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
