@@ -10,7 +10,6 @@
 }
 
 a {
-  padding: 5px;
   color: white;
   text-decoration: none;  
 }
@@ -18,10 +17,11 @@ a {
 /*header*/
 .navegacao {
   width: 100%;
+  height: 80px;
   color: white;
   background-color: #127CE7;
+  padding: 25px 0;
 }
-
 .navegacao-navbar {
   display: flex;
   font-size: 19px;
@@ -30,13 +30,24 @@ a {
   justify-content: space-between;
   margin: auto;
 }
-
+.navegacao-logo{
+  display: flex;
+  flex-direction: row;
+}
+.navegacao-logo > img{
+  width: 31px;
+  height: 31px;
+}
 .navegacao-lista {
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: center;
 }
-
+.navegacao-lista > li > img {
+  width: 24px;
+  height: 24px;
+}
 /*conteudo central*/
 .main {
   display: flex;

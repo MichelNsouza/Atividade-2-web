@@ -13,6 +13,14 @@
   background-image: url("/img/banner/backg-banner.png");
 }
 
+.banner-titulo{
+  width: 387px;
+  height: 88px;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 76px;
+}
+
 .banner-link {
   text-align: center;
   background-color: #004993;
@@ -20,4 +28,15 @@
   height: 58px;
   border-radius: 35px;
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  margin-bottom: 40px;
+
 }
+.banner-link > img {
+  padding: 5px;
+}
+
