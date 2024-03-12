@@ -1,0 +1,62 @@
+
+
+h1 {
+    color: #127CE7;
+    font-size: 36px;
+}
+
+.formulario {
+    width: 1024px;
+    height: 597px;
+    margin-top: 29px;
+    margin: 0 auto;
+}
+
+#container-pai {
+    width: 1024px;
+    height: 597px;
+    border: 2px solid transparent;
+    box-shadow: #fff;
+    border-radius: 8px;
+    
+}
+
+.container {
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 30px;
+}
+
+
+.field {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#nome, #email {
+    width: 466px;
+    height: 49px;
+}
+
+#mensagem {
+    width: 961px;
+    height: 257px;
+    margin-left: 30px;
+   
+}
+
+#labelmensagem {
+    margin-left: 30px;
+}
+
+#enviar {
+    width: 200px;
+    height: 58px;
+    background-color: #2E8B02;
+    color: #fff;
+    margin-top: 55px;
+    margin-left: 426px;
+    border-radius: 35px;
+    cursor: pointer;
+}
