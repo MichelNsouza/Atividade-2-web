@@ -1,0 +1,91 @@
+.formulario> h1 {
+    color: #127CE7;
+    font-size: 36px;
+    margin-top: 26px;
+    margin-bottom: 33px;
+}
+
+.formulario {
+    width: 1024px;
+    height: 769px;
+    margin-top: 29px;
+    margin: 0 auto;
+}
+
+#container-pai {
+    width: 1024px;
+    height: 769px;
+    border: 2px solid transparent;
+    box-shadow: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+
+.container {
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 30px;
+    
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.fieldinput{
+    width: 466px;
+    height: 49px;
+    border-radius: 6px;
+    border: thin solid #DBDBDB;
+    padding: 10px;
+    font-size: 18px;
+    color: #A0A0A0;
+}
+
+.fieldinput2{
+    width: 961px;
+    height: 49px;
+    border-radius: 6px;
+    border: thin solid #DBDBDB;
+    padding: 10px;
+    font-size: 18px;
+    color: #A0A0A0;
+}
+
+
+.fieldtextarea {
+    width: 961px;
+    height: 257px;
+    margin-left: 30px;
+    border-radius: 6px;
+    border: thin solid #DBDBDB;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.fieldtextarea {
+    width: 961px;
+    height: 257px;
+    margin-left: 30px;
+    border-radius: 6px;
+    border: thin solid #DBDBDB;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#enviar {
+    
+    width: 297px;
+    height: 58px;
+    background-color: #2E8B02;
+    color: #fff;
+    margin-top: 55px;
+    margin-left: 426px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 20px;
+}
