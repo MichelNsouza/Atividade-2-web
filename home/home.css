@@ -1,3 +1,4 @@
+/*Estilo banner*/
 .banner {
   color: white;
   border-radius: 16px;
@@ -12,7 +13,6 @@
   background-color: #127de7f1;
   background-image: url("/img/banner/backg-banner.png");
 }
-
 .banner-titulo{
   width: 387px;
   height: 88px;
@@ -20,7 +20,6 @@
   text-align: center;
   margin-top: 76px;
 }
-
 .banner-link {
   text-align: center;
   background-color: #004993;
@@ -34,15 +33,21 @@
   align-items: center;
   margin-top: 38px;
   margin-bottom: 40px;
-
+  color: white;
+  text-decoration: none;
 }
 .banner-link > img {
   padding: 5px;
 }
 
-.registros-titulo{
+/*Estilo dos registro de denuncia*/
+.registros-titulo, .rank-titulo{
   width: 100%;
   margin: auto;
+  font-size: 36px;
+  font-weight: bold;
+  color: #127CE7;
+  box-shadow: 0px 10px 10px -10px #DADADA;
 }
 .registros{
   max-width: 1024px;
@@ -51,10 +56,71 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 0 auto; 
 }
 .registros-denuncia{
-  margin: 15px;
-  border: 1px solid black;
+  font-size: 16px;
+  width: calc(33.33% - 33px);
+  height: 322px;
   text-align: center;
+  margin: 30px 0;
+  box-shadow: 0px 0px 5px #DADADA;
+  border-radius: 5px;
+
+}
+.registros-denuncia-img{
+  width: 100%;
+  padding: 15px;
+}
+.registros-denuncia-endereco{
+  font-weight: bold;
+  color: #127CE7;
+}
+.registros-denuncia-referencia{
+  
+}
+.registros-denuncia-periodo{
+  font-weight: bold;
+}
+.registros-denuncia-reporte{
+  padding-top: 26px;
+}
+
+/*Estilo da tabela de ranking*/
+.rank{
+  justify-content: space-around;
+  width: 1024px;
+  height: 265px;
+  margin: auto;
+  margin-bottom: 67px;
+}
+.rank-tabela{
+  display: table;
+  width: 100%;
+  margin-top: 35px;
+  height: 265px;
+  box-shadow: 0px 0px 5px #DADADA;
+  border-radius: 5px;
+  padding: 24px;
+  font-size: 18px;
+}
+.rank-tabela-cabeca{
+  
+}
+.rank-tabela-corpo{
+  
+}
+.rank-tabela-cabecalho-nome, .rank-tabela-celula-nome{
+  text-align: left;
+}
+.rank-tabela-celula{
+  text-align: center;
+}
+
+.rank-tabela-linha {
+  display: table-row;
+}
+
+.rank-tabela-celula {
+  display: table-cell;
 }
