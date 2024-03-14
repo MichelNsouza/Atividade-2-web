@@ -1,20 +1,28 @@
 .formulario> h1 {
     color: #127CE7;
     font-size: 36px;
-    margin-top: 26px;
-    margin-bottom: 33px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+}
+.linha{
+    border: none;
+    height: 1px;
+    background-color: #DBDBDB;
+    margin-bottom: 29px;
+    margin-top: 6px;
 }
 
 .formulario {
     width: 1024px;
     height: 769px;
-    margin-top: 29px;
     margin: 0 auto;
+    font-size: 18px;
+    
 }
 
 #container-pai {
-    width: 1024px;
-    height: 769px;
+    width: 100%;
+    height: 100vh;
     border: 2px solid transparent;
     box-shadow: #fff;
     border-radius: 8px;
@@ -39,6 +47,8 @@
     width: 466px;
     height: 49px;
     border-radius: 6px;
+    margin: 9px 0 22px 0;
+    border: 2px solid transparent;
     border: thin solid #DBDBDB;
     padding: 10px;
     font-size: 18px;
@@ -49,6 +59,8 @@
     width: 961px;
     height: 49px;
     border-radius: 6px;
+    margin-top: 9px;
+    margin-bottom: 22px;
     border: thin solid #DBDBDB;
     padding: 10px;
     font-size: 18px;
@@ -58,7 +70,8 @@
 
 .fieldtextarea {
     width: 961px;
-    height: 257px;
+    height: 226px;
+    margin-left: 77px;
     margin-left: 30px;
     border-radius: 6px;
     border: thin solid #DBDBDB;
@@ -72,20 +85,31 @@
     height: 257px;
     margin-left: 30px;
     border-radius: 6px;
-    border: thin solid #DBDBDB;
+    border: 5px dashed #DBDBDB;
     padding: 10px;
     font-size: 18px;
 }
 
 #enviar {
-    
     width: 297px;
     height: 58px;
-    background-color: #2E8B02;
+    background-color: #56AD2D;
     color: #fff;
-    margin-top: 55px;
-    margin-left: 426px;
+    margin-top: 47px;
+    margin-left: 361px;
+    margin-right: 366px;
+    margin-bottom: 77px;
+    border: 2px solid #2E8B02;
     border-radius: 35px;
     cursor: pointer;
     font-size: 20px;
+
 }
+ /* tentativa de colocar o icone dentro do input
+.icone-arquivo{
+    display: flex;
+    align-items: center;
+    margin-left: 402px;
+    margin-bottom: 300px;
+    
+}*/
