@@ -1,8 +1,10 @@
 
 
-.formulario > h1 {
+.formulario> h1 {
     color: #127CE7;
     font-size: 36px;
+    margin-top: 26px;
+    margin-bottom: 33px;
 }
 
 .formulario {
@@ -26,30 +28,41 @@
     display: inline-block;
     margin-top: 29px;
     margin-left: 30px;
+    
 }
 
 
 .field {
     display: flex;
     flex-direction: column;
-    
+        
 }
 
-#nome, #email {
+ .fieldinput{
     width: 466px;
     height: 49px;
+    border-radius: 6px;
+    border: thin solid #DBDBDB;
+    padding: 10px;
+    font-size: 18px;
+    color: #A0A0A0;
 }
 
-#mensagem {
+
+.fieldtextarea {
     width: 961px;
     height: 257px;
     margin-left: 30px;
-   
+    border-radius: 6px;
+    border: thin solid #DBDBDB;
+    padding: 10px;
+    font-size: 18px;
 }
 
-#labelmensagem {
+
+.labelmensagem, .fieldinput2 {
     margin-left: 30px;
-}
+} 
 
 #enviar {
     width: 200px;
@@ -60,4 +73,5 @@
     margin-left: 426px;
     border-radius: 35px;
     cursor: pointer;
+    font-size: 20px;
 }

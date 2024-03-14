@@ -35,29 +35,29 @@
   <main>
     
     <form class="formulario" method="post">
-      <h1>Fale Conosco</h1>
-    <hr>
+
+        <h1>Fale Conosco</h1>
     
       <div id="container-pai">
         <div class="container">
           <div class="field">
               <label for="nome">Qual o seu nome?</label>
-              <input type="text" id="nome" name="nome" placeholder="Ex: Pedro Santos" required>
+              <input type="text" class="fieldinput" name="nome" placeholder="Ex: Pedro Santos" required>
           </div>
         </div>
         <div class="container">
           <div class="field">
               <label for="email">Qual o seu e-mail?</label>
-              <input type="text" id="email" name="email" placeholder="Ex: email@gmail.com">
+              <input type="text" class="fieldinput" name="email" placeholder="Ex: email@gmail.com">
           </div>
         </div>
         
           <div class="field">
               <label id="labelmensagem" for="mensagem">Sua mensagem:</label>
-              <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+              <textarea name="mensagem" class="fieldtextarea"  placeholder="Sua mensagem..." required></textarea>
           </div>
       
-        <input type="submit" id="enviar" name="acao" value="Enviar">
+        <input type="submit" id="enviar"  name="acao" value="Enviar">
       </div>
     </form>
   </main>
