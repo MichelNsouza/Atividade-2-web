@@ -39,10 +39,10 @@
 }
 
  .fieldinput{
-    width: 466px;
-    height: 49px;
+    width: 961px;
+    height: 257px;
     border-radius: 6px;
-    border: thin solid #DBDBDB;
+    border: none #DBDBDB;
     padding: 10px;
     font-size: 18px;
     color: #A0A0A0;
@@ -54,9 +54,10 @@
     height: 257px;
     margin-left: 30px;
     border-radius: 6px;
-    border: thin solid #DBDBDB;
+    border: none solid #DBDBDB;
     padding: 10px;
     font-size: 18px;
+    resize: none;
 }
 
 
@@ -67,10 +68,13 @@
 #enviar {
     width: 200px;
     height: 58px;
-    background-color: #2E8B02;
+    background-color: #56AD2D;
     color: #fff;
-    margin-top: 55px;
-    margin-left: 426px;
+    margin-top: 53px;
+    margin-left: 424px;
+    margin-right: 400px;
+    margin-bottom: 72px;
+    border: 2px solid #2E8B02;
     border-radius: 35px;
     cursor: pointer;
     font-size: 20px;
