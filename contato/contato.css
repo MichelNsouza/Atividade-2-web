@@ -7,6 +7,15 @@
     margin-bottom: 33px;
 }
 
+.linha{
+    border: none;
+    height: 1px;
+    background-color: #DBDBDB;
+    margin-bottom: 29px;
+    margin-top: 6px;
+}
+
+
 .formulario {
     width: 1024px;
     height: 597px;
