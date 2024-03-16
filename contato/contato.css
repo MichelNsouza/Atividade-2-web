@@ -1,13 +1,12 @@
-
-
-.formulario> h1 {
+/* Estilo do formulário */
+.formulario > h1 {
     color: #127CE7;
     font-size: 36px;
     margin-top: 26px;
     margin-bottom: 33px;
 }
 
-.linha{
+.linha {
     border: none;
     height: 1px;
     background-color: #DBDBDB;
@@ -15,64 +14,62 @@
     margin-top: 6px;
 }
 
-
 .formulario {
-    width: 1024px;
-    height: 597px;
-    margin-top: 29px;
+    width: 100%; /* Ajustado para preencher a largura total */
+    max-width: 1024px; /* Limitado para uma largura máxima */
+    height: auto; /* Em vez de uma altura fixa, definimos como auto para se ajustar ao conteúdo */
     margin: 0 auto;
+    font-size: 18px;
 }
 
 #container-pai {
-    width: 1024px;
-    height: 597px;
+    width: 100%; /* Ajustado para preencher a largura total */
+    max-width: 1024px; /* Limitado para uma largura máxima */
+    height: auto; /* Em vez de uma altura fixa, definimos como auto para se ajustar ao conteúdo */
     border: 2px solid transparent;
-    box-shadow: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    
+    margin-top: 29px;
+    margin-bottom: 72px;
 }
 
 .container {
     display: inline-block;
     margin-top: 29px;
     margin-left: 30px;
-    
 }
-
 
 .field {
     display: flex;
     flex-direction: column;
-        
 }
 
- .fieldinput{
-    width: 961px;
-    height: 257px;
+.fieldinput {
+    width: calc(100% - 60px); /* Ajustado para levar em conta o padding e a margem */
+    height: 49px;
     border-radius: 6px;
-    border: none #DBDBDB;
+    margin: 9px 0 22px 30px; /* Ajustado para adicionar uma margem esquerda */
+    border: thin solid #DBDBDB;
     padding: 10px;
     font-size: 18px;
     color: #A0A0A0;
 }
 
-
 .fieldtextarea2 {
-    width: 961px;
+    width: calc(100% - 60px); /* Ajustado para levar em conta o padding e a margem */
     height: 257px;
-    margin-left: 30px;
+    margin: 9px 0 22px 30px; /* Ajustado para adicionar uma margem esquerda */
     border-radius: 6px;
-    border: none solid #DBDBDB;
+    border: thin solid #DBDBDB;
     padding: 10px;
     font-size: 18px;
     resize: none;
 }
 
-
-.labelmensagem, .fieldinput2 {
+.labelmensagem,
+.fieldinput2 {
     margin-left: 30px;
-} 
+}
 
 #enviar {
     width: 200px;
@@ -80,8 +77,7 @@
     background-color: #56AD2D;
     color: #fff;
     margin-top: 53px;
-    margin-left: 424px;
-    margin-right: 400px;
+    margin-left: calc(50% - 100px); /* Ajustado para centralizar horizontalmente */
     margin-bottom: 72px;
     border: 2px solid #2E8B02;
     border-radius: 35px;

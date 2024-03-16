@@ -1,4 +1,4 @@
-/*Estilo banner*/
+/* Estilo banner */
 .banner {
   color: white;
   border-radius: 16px;
@@ -10,12 +10,11 @@
   width: 100%; 
   max-width: 1024px; 
   height: 300px;
-  background-color: #127de7f1;
-  background-image: url("/img/banner/backg-banner.png");
+  background: #127de7f1 url("/img/banner/backg-banner.png") center/cover no-repeat;
 }
-.banner-titulo{
-  width: 387px;
-  height: 88px;
+.banner-titulo {
+  width: 100%;
+  max-width: 387px;
   font-size: 36px;
   text-align: center;
   margin-top: 76px;
@@ -23,12 +22,12 @@
 .banner-link {
   text-align: center;
   background-color: #004993;
-  width: 343px;
+  width: 100%;
+  max-width: 343px;
   height: 58px;
   border-radius: 35px;
   font-size: 20px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 38px;
@@ -40,87 +39,71 @@
   padding: 5px;
 }
 
-/*Estilo dos registro de denuncia*/
-.registros-titulo, .rank-titulo{
+/* Estilo dos registros de denúncia */
+.registros-titulo, .rank-titulo {
   width: 100%;
+  max-width: 1024px;
   margin: auto;
   font-size: 36px;
   font-weight: bold;
   color: #127CE7;
-  box-shadow: 0px 10px 10px -10px #DADADA;
+  box-shadow: 0 10px 10px -10px #DADADA;
 }
-.registros{
+.registros {
   max-width: 1024px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
   margin: 0 auto; 
 }
-.registros-denuncia{
-  font-size: 16px;
-  width: calc(33.33% - 33px);
+.registros-denuncia {
+  width: calc(33.33% - 30px);
   height: 322px;
   text-align: center;
   margin: 30px 0;
-  box-shadow: 0px 0px 5px #DADADA;
+  box-shadow: 0 0 5px #DADADA;
   border-radius: 5px;
-
 }
-.registros-denuncia-img{
+.registros-denuncia-img {
   width: 100%;
   padding: 15px;
 }
-.registros-denuncia-endereco{
+.registros-denuncia-endereco {
   font-weight: bold;
   color: #127CE7;
 }
-.registros-denuncia-referencia{
-  
-}
-.registros-denuncia-periodo{
+.registros-denuncia-periodo {
   font-weight: bold;
 }
-.registros-denuncia-reporte{
+.registros-denuncia-reporte {
   padding-top: 26px;
 }
 
-/*Estilo da tabela de ranking*/
-.rank{
+/* Estilo da tabela de ranking */
+.rank {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  width: 1024px;
-  height: 265px;
+  align-items: center;
   margin: auto;
   margin-bottom: 67px;
 }
-.rank-tabela{
-  display: table;
+.rank-tabela {
   width: 100%;
-  margin-top: 35px;
-  height: 265px;
-  box-shadow: 0px 0px 5px #DADADA;
+  box-shadow: 0 0 5px #DADADA;
   border-radius: 5px;
   padding: 24px;
   font-size: 18px;
+  margin-top: 35px;
 }
-.rank-tabela-cabeca{
-  
-}
-.rank-tabela-corpo{
-  
-}
-.rank-tabela-cabecalho-nome, .rank-tabela-celula-nome{
-  text-align: left;
-}
-.rank-tabela-celula{
-  text-align: center;
-}
-
 .rank-tabela-linha {
-  display: table-row;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-
 .rank-tabela-celula {
-  display: table-cell;
+  text-align: left;
 }
