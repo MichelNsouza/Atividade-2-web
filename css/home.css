@@ -10,7 +10,7 @@
   width: 100%; 
   max-width: 1024px; 
   height: 300px;
-  background: #127de7f1 url("/img/banner/backg-banner.png") center/cover no-repeat;
+  background: #127de7f1 url("../img/banner/backg-banner.png") center/cover no-repeat;
 }
 .banner-titulo {
   width: 100%;
