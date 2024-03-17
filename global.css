@@ -1,20 +1,16 @@
+/* Importando os arquivos CSS */
 @import url('/home/home.css');
 @import url('/contato/contato.css');
 @import url('/denuncia/denuncia.css');
 
-/*Configuração global*/
+/* Configuração global */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; 
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  
-   
 }
-/*header*/
+
+/* Header */
 .navegacao {
   width: 100%;
   height: 80px;
@@ -29,11 +25,11 @@
   margin: auto;
   padding: 25px 0;
 }
-.navegacao-logo{
+.navegacao-logo {
   display: flex;
   align-items: center;
 }
-.navegacao-logo > img{
+.navegacao-logo > img {
   margin-right: 10px; 
 }
 .navegacao-lista {
@@ -46,7 +42,7 @@
   padding: 0 30px;
 }
 
-/*conteudo central*/
+/* Conteúdo central */
 .main {
   display: flex;
   flex-direction: column;
@@ -54,9 +50,10 @@
   align-items: center;
   max-width: 1028px; 
   margin: auto;
+  padding-bottom: 20px; /* Adicionando padding inferior */
 }
 
-/*footer*/
+/* Footer */
 .rodape {
   margin-top: 67px;
   background-color: #127CE7;
@@ -69,7 +66,24 @@
   justify-content: center;
   font-size: 19px;
 }
-.coracao{
+.coracao {
   width: 24px;
   height: 24px;
+}
+
+/* Media Query para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+  .navegacao-navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navegacao-lista > li > a {
+    padding: 10px;
+  }
+  /* Adicione uma fonte menor para dispositivos móveis */
+  .navegacao-navbar,
+  .navegacao-lista > li > a,
+  .rodape {
+    font-size: 16px;
+  }
 }
