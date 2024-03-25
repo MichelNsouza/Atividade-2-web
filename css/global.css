@@ -2,12 +2,16 @@
 @import url('home.css');
 @import url('contato.css');
 @import url('denuncia.css');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Configuração global */
 * {
+  font-family: "Overpass", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box; 
+  
+ /* padding-bottom: 20px;*/ 
 }
 
 /* Header */
@@ -50,12 +54,11 @@
   align-items: center;
   max-width: 1028px; 
   margin: auto;
-  padding-bottom: 20px; 
+  
 }
 
 /* Footer */
 .rodape {
-  margin-top: 67px;
   background-color: #127CE7;
   color: #fff;
   width: 100%;
@@ -69,20 +72,4 @@
 .coracao {
   width: 24px;
   height: 24px;
-}
-
-/* Media Query para dispositivos móveis */
-@media only screen and (max-width: 768px) {
-  .navegacao-navbar {
-    flex-direction: column;
-    align-items: center;
-  }
-  .navegacao-lista > li > a {
-    padding: 10px;
-  }
-  .navegacao-navbar,
-  .navegacao-lista > li > a,
-  .rodape {
-    font-size: 16px;
-  }
 }

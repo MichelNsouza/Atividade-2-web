@@ -61,14 +61,17 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
-}
 
+}
+.registros-titulo{
+  margin-bottom: 30px;
+}
 .registros-denuncia {
   width: calc(33.33% - 30px);
   height: 322px;
   text-align: center;
-  margin: 30px 0;
-  box-shadow: 0 0 5px #DADADA;
+  margin: 15px;
+  box-shadow: 0 0 10px #DADADA;
   border-radius: 5px;
 }
 
@@ -96,46 +99,49 @@
   max-width: 1024px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
+  margin-top:48px;
   margin-bottom: 67px;
 }
 
-
-.rank-tabela {
-  border-collapse: collapse;
+.tabela{
+  padding: 21px 19px;
   width: 100%;
+  margin-top: 35px;
+  box-shadow: 0 0 10px #DADADA;
+  border-radius: 8px;
 }
-
-
-.rank-tabela th {
-  text-align: left;
-  padding: 8px;
-  background-color: #f2f2f2;
+.rank-tabela{
+  border-collapse: collapse;
 }
 
 
 .rank-tabela td {
-  text-align: left;
   padding: 8px;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
 }
 
 .rank-tabela-cabecalho-nome {
-  width: 380px;
+  width: 390px;
   text-align: left;
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
 }
-
+.rank-tabela-celula-nome{
+  width: 400px;
+}
 .rank-tabela-cabecalho-denuncia {
-  width: 517px;
+  width: 510px;
   text-align: left;
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
 }
 
-.rank-tabela-nome {
-  text-align: left;
+.rank-tabela td:nth-child(2) {
+  padding-left: 30px;
 }
+
+.rank-tabela-cabecalho-posicao {
+  width: 70px;
+  text-align: center;
+}
+.rank-tabela-celula-posicao {
+  text-align: center;
+}
+
+

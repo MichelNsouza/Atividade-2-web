@@ -1,10 +1,9 @@
 
 
-.formulario> h1 {
+.formulario-contato > h1 {
     color: #127CE7;
     font-size: 36px;
     margin-top: 26px;
-    margin-bottom: 33px;
 }
 
 .linha{
@@ -16,14 +15,14 @@
 }
 
 
-.formulario {
+.formulario-contato {
     width: 1024px;
-    height: 597px;
+    height: 759px;
     margin-top: 29px;
     margin: 0 auto;
 }
 
-#container-pai {
+.container-pai-contato {
     width: 1024px;
     height: 597px;
     border: 2px solid transparent;
