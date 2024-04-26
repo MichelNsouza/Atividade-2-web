@@ -7,7 +7,7 @@ Este repositório contém a atividade feita em grupo como parte da nota oficial 
 - CSS3
   
 ## Deploy
-- [Git Pages](https://michelnsouza.github.io/Consulta_API_Ibge/)
+- [Git Pages](https://michelnsouza.github.io/Atividade3-web1/)
 
 ## Contributors
 - [Elder Borges](https://github.com/eldersb)
