@@ -7,7 +7,7 @@ Este repositório contém a atividade feita em grupo como parte da nota oficial 
 - CSS3
   
 ## Deploy
-- [Git Pages](https://michelnsouza.github.io/Atividade3-web1/)
+- [Git Pages](https://michelnsouza.github.io/BuracoDeFreitas_Parcial1Web1Unime/)
 
 ## Contributors
 - [Elder Borges](https://github.com/eldersb)
