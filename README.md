@@ -9,6 +9,9 @@ Este repositório contém a atividade feita em grupo como parte da nota oficial 
 ## Deploy
 - [Git Pages](https://michelnsouza.github.io/BuracoDeFreitas_Parcial1Web1Unime/)
 
+## Imagens
+![image](https://github.com/MichelNsouza/BuracoDeFreitas_Parcial1Web1Unime/assets/91084191/03e54cb4-efde-4525-b4d1-5ade0a4d2b5b)
+
 ## Contributors
 - [Elder Borges](https://github.com/eldersb)
 - [Michel Souza]( https://github.com/MichelNsouza)
